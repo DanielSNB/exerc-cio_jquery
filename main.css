@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: rgb(36, 19, 19);
+    padding: 16px 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: inherit;
+}
+
+header button {
+    margin-left: 14px;
+}
+
+form {
+    background-color: #5e2b2b;
+    padding: 20px 0;
+    text-align: center;
+    display: none;
+}
+
+form h2 {
+    color: #fff;
+    margin-bottom: 14px;
+}
+
+input, button {
+    padding: 8px;
+}
+
+button {
+    background-color: rgb(116, 148, 28);
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+
+#botao-cancelar {
+    background-color: rgb(175, 11, 11);
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#lista-tarefas li {
+    background-color: #f9f9f9;
+    margin: 12px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.completa {
+    text-decoration: line-through;
+}
+
